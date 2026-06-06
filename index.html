@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FinControl</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>FinControl</h1>
+<form id="txForm">
+<input type="date" id="date" required>
+<select id="type"><option>Расход</option><option>Доход</option></select>
+<input id="category" placeholder="Категория" required>
+<input id="desc" placeholder="Описание">
+<input id="amount" type="number" placeholder="Сумма" required>
+<button>Сохранить</button>
+</form>
+<div id="summary"></div>
+<ul id="list"></ul>
+<script>const API="https://script.google.com/macros/s/AKfycbwQw5FsHP07UKlTQrQL60L4oG2bTKlE-a02zD4RmEazt7bSXv34AzJQJXHNzzEO1ZrWCg/exec";</script>
+<script src="app.js"></script>
+</body>
+</html>

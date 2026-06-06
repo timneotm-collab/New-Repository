@@ -1,0 +1,8 @@
+{
+"name":"FinControl",
+"short_name":"FinControl",
+"display":"standalone",
+"start_url":"./",
+"theme_color":"#ffffff",
+"background_color":"#ffffff"
+}

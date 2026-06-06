@@ -1,7 +1,6 @@
 const API = 'https://script.google.com/macros/s/AKfycbxmcKc0gOqxtC1PDkcccAdYvX-5uW8Ql0UlAe-oeEJWDJ3sq9whu9bLH_luF-_BFLR7EA/exec';
 
 async function load(){
-async function load(){
  const res=await fetch(API+'?action=list');
  const data=await res.json();
  const list=document.getElementById('list');
